@@ -1,6 +1,6 @@
 # ETH Mining-Administration-System
 
-## C# / C++ implementation of INO Autonomous car. 
+## C# implementation using socket-connection networking. 
 
 ### Used GUI framework:
 
