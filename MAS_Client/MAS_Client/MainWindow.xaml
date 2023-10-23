@@ -1,0 +1,172 @@
+﻿<Window x:Class="MAS_Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MAS_Client"
+        mc:Ignorable="d"
+        ResizeMode="CanMinimize"
+        Title="MainWindow" Height="320" Width="610">
+    <StackPanel  Width="600" HorizontalAlignment="Center"  VerticalAlignment="Center"  Background="Transparent" Height="285">
+        
+        <Grid Height="265">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="445"/>
+                <ColumnDefinition Width="155"/>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.ColumnSpan="2" Margin="0,0,0,-19">
+                <Border.Background>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#7be9f6" Offset="0.0"/>
+                        <GradientStop Color="#f083da" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+            </Border>
+
+            <Image
+                x:Name="eth"
+                Source="img/eth_image.png"
+                Width="100" Height="100"
+                Grid.Column="1"
+                Margin="17,33,18,133"/>
+
+            <TextBox
+                BorderBrush="Aqua"
+                FontFamily="Helvetica"
+                FontWeight="Light"
+                x:Name="textbox_Console"
+                Text=""
+                Margin="10"
+                FontSize="12"
+                AcceptsReturn="True"
+                TextWrapping="Wrap"
+                Language="en-US"
+                VerticalAlignment="Top"            
+                Height="100"
+                Width="425"
+                HorizontalAlignment="Left"
+                Grid.Column="0"
+                ></TextBox>
+
+            <TextBox 
+                BorderBrush="Aqua"
+                FontFamily="Helvetica"
+                FontWeight="Light"
+                x:Name="textbox_Worker"
+                Text="Worker name:"
+                Margin="10,132,0,0"
+                FontSize="20"
+                AcceptsReturn="False"
+                TextWrapping="NoWrap"
+                Language="en-US"
+                VerticalAlignment="Top"
+                MouseDoubleClick="textBox_worker_doubleclick"
+                Width="425"
+                HorizontalAlignment="Left"
+                Grid.Column="0"
+                ></TextBox>
+
+            <TextBox
+                BorderBrush="Aqua"
+                FontFamily="Helvetica"
+                FontWeight="Light"
+                x:Name="textbox_Wallet"
+                Text="Wallet ID:"
+                Margin="10,0,0,57"
+                FontSize="20" 
+                AcceptsReturn="False"
+                TextWrapping="NoWrap"
+                VerticalAlignment="Bottom"
+                MouseDoubleClick="textBox_wallet_doubleclick"
+                Width="425"
+                HorizontalAlignment="Left"
+                Grid.Column="0"
+                ></TextBox>
+
+            <Grid VerticalAlignment="Bottom"
+                  Width="440"
+                  HorizontalAlignment="Left"
+                 Grid.Column="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="110"/>
+                    <ColumnDefinition Width="110"/>
+                    <ColumnDefinition Width="110"/>
+                    <ColumnDefinition Width="110"/>
+                </Grid.ColumnDefinitions>
+
+                <Button
+                IsEnabled="true"
+                BorderBrush="Aqua"
+                FontFamily="Helvetica"
+                FontWeight="Light"
+                x:Name="button_Auth"
+                Click="button_click_Auth"
+                Width="100"
+                Margin="5"
+                Content="Authorisation"
+                Grid.Column="0"
+                ></Button>
+
+                <Button
+                IsEnabled="true"
+                BorderBrush="Aqua"
+                FontFamily="Helvetica"
+                FontWeight="Light"
+                x:Name="button_Reg"
+                Click="button_click_Reg"
+                Width="100"
+                Margin="5"
+                Content="Register"
+                Grid.Column="1"
+                ></Button>
+
+                <Button
+                IsEnabled="false"
+                BorderBrush="Aqua"
+                FontFamily="Helvetica"
+                FontWeight="Light"
+                x:Name="button_Run"
+                Click="button_click_Choise"
+                Width="95"
+                Margin="5"
+                Content="Choose Currency"
+                Grid.Column="2"
+                ></Button>
+
+                <Button
+                IsEnabled="false"
+                BorderBrush="Aqua"
+                FontFamily="Helvetica"
+                FontWeight="Light"
+                x:Name="button_Del"
+                Click="button_click_Del"
+                Width="95"
+                Margin="5"
+                Content="Delete User"
+                Grid.Column="3"
+                ></Button>
+            </Grid>
+
+            <Button
+                Background="White"
+                IsEnabled="false"
+                BorderBrush="Aqua"
+                FontFamily="Helvetica"
+                FontWeight="Light"
+                x:Name="button_run_miner"
+                Click="button_click_Run"
+                Height="100"
+                Width="95"
+                Margin="5"
+                Content="Run Miner"
+                VerticalAlignment="Bottom"
+                Grid.Column="1"
+                ></Button>
+        </Grid>
+    </StackPanel>
+
+
+
+</Window>
