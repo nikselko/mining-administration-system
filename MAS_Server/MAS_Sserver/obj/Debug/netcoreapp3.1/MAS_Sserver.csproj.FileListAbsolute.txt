@@ -1,0 +1,13 @@
+C:\Users\nikse\source\repos\MAS_Sserver\MAS_Sserver\bin\Debug\netcoreapp3.1\MAS_Sserver.exe
+C:\Users\nikse\source\repos\MAS_Sserver\MAS_Sserver\bin\Debug\netcoreapp3.1\MAS_Sserver.deps.json
+C:\Users\nikse\source\repos\MAS_Sserver\MAS_Sserver\bin\Debug\netcoreapp3.1\MAS_Sserver.runtimeconfig.json
+C:\Users\nikse\source\repos\MAS_Sserver\MAS_Sserver\bin\Debug\netcoreapp3.1\MAS_Sserver.runtimeconfig.dev.json
+C:\Users\nikse\source\repos\MAS_Sserver\MAS_Sserver\bin\Debug\netcoreapp3.1\MAS_Sserver.dll
+C:\Users\nikse\source\repos\MAS_Sserver\MAS_Sserver\bin\Debug\netcoreapp3.1\MAS_Sserver.pdb
+C:\Users\nikse\source\repos\MAS_Sserver\MAS_Sserver\obj\Debug\netcoreapp3.1\MAS_Sserver.csprojAssemblyReference.cache
+C:\Users\nikse\source\repos\MAS_Sserver\MAS_Sserver\obj\Debug\netcoreapp3.1\MAS_Sserver.AssemblyInfoInputs.cache
+C:\Users\nikse\source\repos\MAS_Sserver\MAS_Sserver\obj\Debug\netcoreapp3.1\MAS_Sserver.AssemblyInfo.cs
+C:\Users\nikse\source\repos\MAS_Sserver\MAS_Sserver\obj\Debug\netcoreapp3.1\MAS_Sserver.csproj.CoreCompileInputs.cache
+C:\Users\nikse\source\repos\MAS_Sserver\MAS_Sserver\obj\Debug\netcoreapp3.1\MAS_Sserver.dll
+C:\Users\nikse\source\repos\MAS_Sserver\MAS_Sserver\obj\Debug\netcoreapp3.1\MAS_Sserver.pdb
+C:\Users\nikse\source\repos\MAS_Sserver\MAS_Sserver\obj\Debug\netcoreapp3.1\MAS_Sserver.genruntimeconfig.cache
